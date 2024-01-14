@@ -1,1 +1,1 @@
-# Daily-tasks
+# EBI Training Daily tasks
