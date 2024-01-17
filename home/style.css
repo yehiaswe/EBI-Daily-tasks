@@ -1,0 +1,174 @@
+body{
+    font-family: 'Roboto', sans-serif; /* Use a suitable font family */
+}
+* {
+margin: 0;
+padding: 0;
+}
+.background {
+background: black;
+background-blend-mode: darken;
+background-size: cover;
+}
+nav{
+position: fixed;
+background: pink;
+width: 100%;
+padding: 10px 0;
+
+}
+nav .menu{
+max-width: 1250px;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.menu .logo a{
+text-decoration: none;
+color: #fff;
+font-size: 35px;
+font-weight: 600;
+}
+.menu ul{
+display: inline-flex;
+}
+.menu ul li{
+list-style: none;
+margin-left: 7px;
+}
+.menu ul li a{
+text-decoration: none;
+color: #fff;
+font-size: 18px;
+font-weight: 500;
+padding: 8px 15px;
+border-radius: 5px;
+}
+.menu ul li a:hover{
+background: #fff;
+color: black;
+}
+.firstsection {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(mission.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 700px;
+	
+}
+
+
+.secondsection {
+	background-color: blue;
+	height: 700px;
+}
+.thirdsection
+{
+	background-color: cyan;
+	height: 700px;
+}
+.box-main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	max-width: 80%;
+	margin: auto;
+	height: 80%;
+}
+#firstfontbig {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 35px;
+	text-align: center;
+	color: #fff;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+#firstfontsmall {
+	font-size: 18px;
+	line-height: 1.6;
+	text-align: center;
+	color: #fff;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+#secondfontbig {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 35px;
+	text-align: center;
+	color: 1px 1px 2px rgba(0, 0, 0, 0.8);
+	text-shadow: #fff;
+}
+#secondfontsmall {
+	font-size: 18px;
+	line-height: 1.6;
+	text-align: center;
+	color: 1px 1px 2px rgba(0, 0, 0, 0.8);
+	text-shadow: #fff;
+}
+#contact-header {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 35px;
+	text-align: center;
+	color: 1px 1px 2px rgba(0, 0, 0, 0.8);
+	text-shadow: #fff;
+	background: pink;
+	height: 100px;
+}
+
+#contact-details {
+	background: pink;
+	font-size: 18px;
+	line-height: 1.6;
+	text-align: center;
+	color: 1px 1px 2px rgba(0, 0, 0, 0.8);
+	text-shadow: #fff;
+}
+#reach-us {
+	font-size: 18px;
+	line-height: 1.6;
+	text-align: center;
+	color: 1px 1px 2px rgba(0, 0, 0, 0.8);
+	text-shadow: #fff;
+}
+.paras {
+	padding-left: 65px;
+	padding-top: 100px;
+}
+.center {
+	text-align: center;
+}
+.text-footer {
+	text-align: center;
+	padding: 30px 0;
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+.secondsection {
+    background-color: #f5f5f5; /* Set a background color for better visibility */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.secondHalf {
+    text-align: center; /* Center align the content */
+}
+
+.chief-image {
+    display: inline-block;
+    margin: 10px; /* Adjust the margin between images */
+}
+
+.chief-image img {
+    width: 200px; /* Set a fixed width for the images */
+    height: auto;
+    border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+}
+
+.chief-description {
+    margin-top: 10px; /* Adjust the margin between image and description */
+    font-size: 14px; /* Adjust the font size of the description */
+}
